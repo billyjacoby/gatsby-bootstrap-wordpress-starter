@@ -1,9 +1,9 @@
-# Gatsby React Bootstrap Starter
+# Gatsby Bootstrap Wordpress Starter
 
 A GatsbyJS starter that includes
 
 - react-bootstrap
-- react-icons
 - sticky on scroll navbar
 - SASS compiler
 - basic layout
+- sample wordpress sourcing

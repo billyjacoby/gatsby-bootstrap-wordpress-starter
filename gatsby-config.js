@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/gatsby-bootstrap-wordpress-starter",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
+    title: `Gatsby Bootstrap Wordpress Starter`,
+    description: `A starter that includes react-bootstrap, SASS compilation, and sample wordpress sourcing.`,
     author: `Billy Jacoby`,
   },
   plugins: [
@@ -27,6 +27,16 @@ module.exports = {
         theme_color: `#20232a`,
         display: `minimal-ui`,
       },
+    },
+    {
+        resolve: `gatsby-source-wordpress`,
+        options: {
+          baseUrl: "backend.billyjacoby.com",
+          protocol: "https",
+          hostingWPCOM: false,
+          useACF: true,
+          keepMediaSizes: false
+       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
