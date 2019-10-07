@@ -24,21 +24,21 @@ const IndexPage = () => (
               href="https://getbootstrap.com"
               target="_blank"
             >
-              Bootstrap
+              bootstrap
             </ListGroup.Item>
             <ListGroup.Item
               action
-              href="https://react-bootstrap.github.io/"
+              href="https://getbootstrap.com"
+              target="_blank"
+            >
+              gatsby-source-wordpress
+            </ListGroup.Item>
+            <ListGroup.Item
+              action
+              href="https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress"
               target="_blank"
             >
               react-bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-icons.netlify.com"
-              target="_blank"
-            >
-              react-icons
             </ListGroup.Item>
             <ListGroup.Item
               action
